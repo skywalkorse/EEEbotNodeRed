@@ -1,0 +1,1717 @@
+[
+    {
+        "id": "1d95770407ca24ff",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "99366da2301717ce",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "e7c46d5e.a1283",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "id": "48817312e845244a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d7f948e766bb3938",
+        "type": "ui_group",
+        "name": "AJ Car",
+        "tab": "4b3b9002f6292df1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4b3b9002f6292df1",
+        "type": "ui_tab",
+        "name": "AJ Car",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1184fa1d91ac2538",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9bccee99e8427849",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9bccee99e8427849",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72e7f29fda2589b7",
+        "type": "ui_group",
+        "name": "NeoPixels",
+        "tab": "4b3b9002f6292df1",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a10fef98f528820d",
+        "type": "ui_group",
+        "name": "Graphs",
+        "tab": "4b3b9002f6292df1",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9e58624.7faaba",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "esp32/LCDString",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 470,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "abf7079a.653be8",
+        "type": "mqtt in",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "esp32/temperature",
+        "qos": "2",
+        "broker": "10e78a89.5b4fd5",
+        "inputs": 0,
+        "x": 324,
+        "y": 267,
+        "wires": [
+            [
+                "cc79021b.9a751",
+                "de6c19893b194bf3"
+            ]
+        ]
+    },
+    {
+        "id": "cc79021b.9a751",
+        "type": "debug",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 521,
+        "y": 234,
+        "wires": []
+    },
+    {
+        "id": "5de6519902e68c2d",
+        "type": "ui_text_input",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LCD In:",
+        "tooltip": "",
+        "group": "d7f948e766bb3938",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 260,
+        "y": 360,
+        "wires": [
+            [
+                "9e58624.7faaba"
+            ]
+        ]
+    },
+    {
+        "id": "de6c19893b194bf3",
+        "type": "ui_chart",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 2,
+        "width": "18",
+        "height": "5",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 530,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "747f7ac3133c3c5b",
+        "type": "ui_text_input",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "OLED",
+        "tooltip": "",
+        "group": "61285987.c20328",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 250,
+        "y": 440,
+        "wires": [
+            [
+                "6252a98bcfbe301b"
+            ]
+        ]
+    },
+    {
+        "id": "6252a98bcfbe301b",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "esp32/OLEDoutput",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 470,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "dc16f335102235f1",
+        "type": "ui_slider",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "Left Wheel Speed ",
+        "tooltip": "",
+        "group": "d7f948e766bb3938",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "255",
+        "step": 1,
+        "className": "",
+        "x": 290,
+        "y": 500,
+        "wires": [
+            [
+                "2610d7696dea30db",
+                "c898fdf76427479b"
+            ]
+        ]
+    },
+    {
+        "id": "3335fe8ebc36465b",
+        "type": "ui_slider",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "Right Wheel Speed",
+        "tooltip": "",
+        "group": "d7f948e766bb3938",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "255",
+        "step": 1,
+        "className": "",
+        "x": 290,
+        "y": 600,
+        "wires": [
+            [
+                "0c497a1d45893839",
+                "74064120a97cab5f"
+            ]
+        ]
+    },
+    {
+        "id": "e836cbc235acdb33",
+        "type": "ui_slider",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "Steering Angle",
+        "tooltip": "Forwards = 87",
+        "group": "d7f948e766bb3938",
+        "order": 6,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "20",
+        "max": "160",
+        "step": 1,
+        "className": "",
+        "x": 280,
+        "y": 700,
+        "wires": [
+            [
+                "17cb34d37a6d3d71",
+                "0c0f14c4a5b77333"
+            ]
+        ]
+    },
+    {
+        "id": "17cb34d37a6d3d71",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/steerAngle",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 560,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "0c497a1d45893839",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/rightSpeed",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 560,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2610d7696dea30db",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/leftSpeed",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 550,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0c0f14c4a5b77333",
+        "type": "ui_text",
+        "z": "1d95770407ca24ff",
+        "group": "d7f948e766bb3938",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Angle",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 510,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "74064120a97cab5f",
+        "type": "ui_text",
+        "z": "1d95770407ca24ff",
+        "group": "d7f948e766bb3938",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 510,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "c898fdf76427479b",
+        "type": "ui_text",
+        "z": "1d95770407ca24ff",
+        "group": "d7f948e766bb3938",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 510,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f9c3ab929d00d1aa",
+        "type": "mqtt in",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/distance",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 290,
+        "y": 960,
+        "wires": [
+            [
+                "965da0f041d77aef",
+                "49a47c6beef973b4"
+            ]
+        ]
+    },
+    {
+        "id": "965da0f041d77aef",
+        "type": "ui_chart",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "group": "a10fef98f528820d",
+        "order": 2,
+        "width": "4",
+        "height": "4",
+        "label": "Distance",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "200",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "49a47c6beef973b4",
+        "type": "debug",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "c1098ce9908d3f99",
+        "type": "mqtt in",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/battery",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 280,
+        "y": 1100,
+        "wires": [
+            [
+                "a0382cdbd9180ff3"
+            ]
+        ]
+    },
+    {
+        "id": "a0382cdbd9180ff3",
+        "type": "debug",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "c3461e34bb9313fb",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 1",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1180,
+        "wires": [
+            [
+                "93efb50fce85f67a"
+            ]
+        ]
+    },
+    {
+        "id": "1dc44b6108b2250b",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 2",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1220,
+        "wires": [
+            [
+                "ee5ccbc2559e6b0f"
+            ]
+        ]
+    },
+    {
+        "id": "0cc3603188981016",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 3",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1260,
+        "wires": [
+            [
+                "66c698b028d41633"
+            ]
+        ]
+    },
+    {
+        "id": "5e59e7da85a55c4c",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 4",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1300,
+        "wires": [
+            [
+                "e3e62a087bcc1714"
+            ]
+        ]
+    },
+    {
+        "id": "b673221a5be7c0f1",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 5",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1340,
+        "wires": [
+            [
+                "a48b691cb93eb483"
+            ]
+        ]
+    },
+    {
+        "id": "1d67e60c897b02fa",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 6",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1380,
+        "wires": [
+            [
+                "97d9c6de6d3794ae"
+            ]
+        ]
+    },
+    {
+        "id": "d8b9b4874fa88cda",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 7",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1460,
+        "wires": [
+            [
+                "1838849fc75c9d3c"
+            ]
+        ]
+    },
+    {
+        "id": "3ed464617e4655fd",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 8",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1500,
+        "wires": [
+            [
+                "de774f465ddb8153"
+            ]
+        ]
+    },
+    {
+        "id": "c79d998cbc774ad8",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 9",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 1540,
+        "wires": [
+            [
+                "aa13b0c160649346"
+            ]
+        ]
+    },
+    {
+        "id": "f64f3b09777eaa54",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 10",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 620,
+        "y": 1580,
+        "wires": [
+            [
+                "d7702824245149dc"
+            ]
+        ]
+    },
+    {
+        "id": "177440e0078f48cc",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED 11",
+        "group": "72e7f29fda2589b7",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 620,
+        "y": 1620,
+        "wires": [
+            [
+                "612f4c04901e6aa6"
+            ]
+        ]
+    },
+    {
+        "id": "93efb50fce85f67a",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledOne",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "ee5ccbc2559e6b0f",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledTwo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 900,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "66c698b028d41633",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledThree",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "e3e62a087bcc1714",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledFour",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "a48b691cb93eb483",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledFive",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "97d9c6de6d3794ae",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledSix",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 900,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "1838849fc75c9d3c",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledSeven",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "de774f465ddb8153",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledEight",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "aa13b0c160649346",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledNine",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "d7702824245149dc",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledTen",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 900,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "612f4c04901e6aa6",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledEleven",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 910,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "7efc50a8c51f9b4a",
+        "type": "mqtt in",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/angleZ",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 300,
+        "y": 860,
+        "wires": [
+            [
+                "606fe2c742bae418",
+                "534365c908968292"
+            ]
+        ]
+    },
+    {
+        "id": "606fe2c742bae418",
+        "type": "debug",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "534365c908968292",
+        "type": "ui_gauge",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "group": "a10fef98f528820d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Angle",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-180",
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 530,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0b1792671e91b021",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledLeft",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 560,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "06879c341641736e",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledRight",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 570,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "149d6aa01b56a545",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED ALL LEFT",
+        "group": "d7f948e766bb3938",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 1680,
+        "wires": [
+            [
+                "0b1792671e91b021"
+            ]
+        ]
+    },
+    {
+        "id": "81176d757cd56041",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED ALL RIGHT",
+        "group": "d7f948e766bb3938",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 1720,
+        "wires": [
+            [
+                "06879c341641736e"
+            ]
+        ]
+    },
+    {
+        "id": "a2da70b2a13fdc6e",
+        "type": "ui_colour_picker",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "label": "LED ALL ",
+        "group": "d7f948e766bb3938",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 180,
+        "y": 1420,
+        "wires": [
+            [
+                "0243bc61c7e8eafa",
+                "c3461e34bb9313fb",
+                "1dc44b6108b2250b",
+                "0cc3603188981016",
+                "5e59e7da85a55c4c",
+                "b673221a5be7c0f1",
+                "1d67e60c897b02fa",
+                "d8b9b4874fa88cda",
+                "3ed464617e4655fd",
+                "c79d998cbc774ad8",
+                "f64f3b09777eaa54",
+                "177440e0078f48cc"
+            ]
+        ]
+    },
+    {
+        "id": "0243bc61c7e8eafa",
+        "type": "mqtt out",
+        "z": "1d95770407ca24ff",
+        "name": "",
+        "topic": "AJesp32/ledAll",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 480,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "81093c9dbc487b42",
+        "type": "ui_template",
+        "z": "99366da2301717ce",
+        "group": "1184fa1d91ac2538",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function($scope) {\n    document.onkeydown = function (e) {\n        let msg = {\"payload\": e.key,  \"topic\": \"keydown\"};\n        $scope.send(msg);\n    };\n    \n    document.onkeyup = function (e) {\n        let msg = {\"payload\": e.key, \"topic\": \"keyup\"};\n        $scope.send(msg);\n    };\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 660,
+        "wires": [
+            [
+                "35604768cf5f159f"
+            ]
+        ]
+    },
+    {
+        "id": "0f33b2ab2975bbed",
+        "type": "ui_text",
+        "z": "99366da2301717ce",
+        "group": "1184fa1d91ac2538",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Turn",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1050,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "b89ef7f9fef90d00",
+        "type": "function",
+        "z": "99366da2301717ce",
+        "name": "append",
+        "func": "var txt = flow.get(\"text\") || \"\";\ntxt = msg.payload\nmsg.payload = txt\nflow.set(\"text\", txt)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 700,
+        "wires": [
+            [
+                "0f33b2ab2975bbed",
+                "636ca44c301418e8"
+            ]
+        ]
+    },
+    {
+        "id": "35604768cf5f159f",
+        "type": "switch",
+        "z": "99366da2301717ce",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "keydown",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "keyup",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 660,
+        "wires": [
+            [
+                "aba498bb53e66a0a"
+            ],
+            [
+                "658e0aadf8bb2fd4",
+                "dd53a85f5ebc0ef2"
+            ]
+        ]
+    },
+    {
+        "id": "aba498bb53e66a0a",
+        "type": "switch",
+        "z": "99366da2301717ce",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Enter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "w",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "s",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 450,
+        "y": 600,
+        "wires": [
+            [],
+            [
+                "8178817edcda0e2d"
+            ],
+            [
+                "8178817edcda0e2d"
+            ],
+            [
+                "b89ef7f9fef90d00"
+            ]
+        ]
+    },
+    {
+        "id": "658e0aadf8bb2fd4",
+        "type": "function",
+        "z": "99366da2301717ce",
+        "name": "delete",
+        "func": "var txt = flow.get(\"text\") || \"\";\nmsg.payload = txt.slice(0, -1)\nflow.set(\"text\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 640,
+        "wires": [
+            [
+                "0f33b2ab2975bbed",
+                "636ca44c301418e8",
+                "5d185d9d515d6c55"
+            ]
+        ]
+    },
+    {
+        "id": "636ca44c301418e8",
+        "type": "mqtt out",
+        "z": "99366da2301717ce",
+        "name": "",
+        "topic": "esp32/KongSteer",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1090,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "5d185d9d515d6c55",
+        "type": "ui_text",
+        "z": "99366da2301717ce",
+        "group": "1184fa1d91ac2538",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Move",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1070,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8178817edcda0e2d",
+        "type": "function",
+        "z": "99366da2301717ce",
+        "name": "append",
+        "func": "var txt = flow.get(\"text\") || \"\";\ntxt = msg.payload\nmsg.payload = txt\nflow.set(\"text\", txt)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 800,
+        "wires": [
+            [
+                "5d185d9d515d6c55",
+                "fc9460905fd90961"
+            ]
+        ]
+    },
+    {
+        "id": "fc9460905fd90961",
+        "type": "mqtt out",
+        "z": "99366da2301717ce",
+        "name": "",
+        "topic": "esp32/KongMove",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 1090,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "dd53a85f5ebc0ef2",
+        "type": "function",
+        "z": "99366da2301717ce",
+        "name": "delete",
+        "func": "var txt = flow.get(\"text\") || \"\";\nmsg.payload = txt.slice(0, -1)\nflow.set(\"text\", msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710.3333129882812,
+        "y": 868,
+        "wires": [
+            [
+                "fc9460905fd90961"
+            ]
+        ]
+    }
+]
